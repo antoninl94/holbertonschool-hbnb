@@ -207,7 +207,7 @@ main {
 
 .button-login {
   margin: 10px 20px 10px 20px;
-  width: 30%;
+  width: 250px;
   color: #fff;
   background-color: #70432d;
   border-radius: 5px;
@@ -221,5 +221,5 @@ main {
 }
 
 #email, #password {
-  width: 30%;
+  width: 250px;
 }
