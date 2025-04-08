@@ -10,8 +10,8 @@
   font-family: Arial, sans-serif;
 }
 
-h2 {
-  margin: 10px 0px 15px 0px;
+h2, label {
+  margin: 10px 20px 15px 20px;
 }
 
 html, body {
