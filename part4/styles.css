@@ -182,7 +182,12 @@ main {
   padding: 6px 10px;
 }
 
-.submit-button, .button-login:hover {
+.button-login:hover {
+  background-color:#e97b48;
+  text-decoration: underline;
+}
+
+.submit-button:hover {
   background-color:#e97b48;
   text-decoration: underline;
 }
