@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   if (loginForm) {
     loginForm.addEventListener('submit', async (event) => {
       event.preventDefault();
-      // Your code to handle form submission
+      
     });
   }
 });

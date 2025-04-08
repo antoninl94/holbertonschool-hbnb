@@ -207,10 +207,19 @@ main {
 
 .button-login {
   margin: 10px 20px 10px 20px;
+  width: 30%;
   color: #fff;
   background-color: #70432d;
   border-radius: 5px;
   border-color: #70432d;
   cursor: pointer;
   padding: 6px 10px;
+}
+
+#login-form {
+  text-align: center;
+}
+
+#email, #password {
+  width: 30%;
 }
