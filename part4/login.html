@@ -7,30 +7,33 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <img src="images/logo.png" class="logo" alt="Logo">
-        <nav>
-            <a href="index.html" id="index-link">List of places</a>
-            <a href="login.html" id="login-link" class="login-button">Login</a>
-            <a href="add_review.html" id="add-review-link">Add review</a>
-            <a href="place.html" id="place-link">Place details</a>
-        </nav>
-    </header>
-    <main>
-        <form id="login-form">
-            <h2>Login</h2>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-            
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" required>
-            
-            <button type="submit">Login</button>
-        </form>
-    </main>
-    <footer>
-        <div>All rights reserved</div>
-    </footer>
-    <script src="scripts.js"></script>
+    <div class="wrapper">
+        <header>
+            <img class ="logo" src="logo.png" alt="logo hbnb">
+            <nav>
+                <a href="login.html" id="login-link" class="login-button">Login</a>
+                <a href="index.html" id="index-link">Index</a>
+                <a href="place.html" id="place-link">Place</a>
+            </nav>
+        </header>
+        <main>
+            <form id="login-form">
+                <h2>Login</h2>
+                <label for="email">Email:</label>
+                <p>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="password">Password:</label>
+                </p>
+                <input type="password" id="password" name="password" required>
+                <p>
+                <button class="button-login" type="submit">Login</button>
+                </p>
+            </form>
+        </main>
+        <script src="scripts.js"></script>
+        <footer>© 2025 Holberton School HBnB. All Rights Reserved</footer>
+    </div>
 </body>
 </html>

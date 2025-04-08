@@ -4,36 +4,195 @@
 */
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin: 10px 0px 15px 0px;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 body {
-    background-color: #f4f4f4;
-    color: #333;
+  background-color: lightgray;
+  color: #333;
 }
 
 header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem;
+  background-color: #af8d65;
+  color: #fff;
+  padding: 1rem;
+  width: 100%;
+}
+
+footer {
+  background-color: #af8d65;
+  color:#f4f4f4;
+  text-align: center;
+  position: relative;
+  bottom: 0%;
+  padding: 1rem;
+  width: 100%;
+  height: 50px;
+
 }
 
 nav a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 1rem;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 1rem;
+}
+
+nav a:hover {
+  color:#ec5b18;
+  text-decoration: underline;
 }
 
 main {
-    padding: 2rem;
+  padding: 2rem;
+  flex: 1;
 }
 
-.place-card .review-card {
-    margin: 20px;
-    padding: 10px;
-    border: 1px solid #ddd;
-    border-radius: 10px;
+#login-link {
+  float: right;
+  color: #333;
+  text-align: center;
+  width: 100px;
+  border: 1px solid #e0c592;
+  background-color: #e0c592;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 0px #83725f
+}
+
+#login-link:hover {
+  background-color: #dfcca9;
+  cursor: pointer;
+}
+
+#available-places {
+  text-align: center;
+}
+
+#filter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#places-list {
+  display: flex;
+  justify-content: center;
+}
+
+#place-title {
+  text-align: center;
+}
+
+.details-button {
+  width:fit-content;
+  margin: auto;
+  color: #fff;
+  background-color: #70432d;
+  border-radius: 5px;
+  border-color: #70432d;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.details-button:hover {
+  background-color: #e97b48;
+  text-decoration: underline;
+}
+
+.place-card {
+  display: grid;
+  background-color: white;
+  text-align: center;
+  height: 250px;
+  flex: 1;
+  margin: 10px 10px 30px 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 0px #83725f
+}
+
+.review-card {
+  display: grid;
+  background-color: white;
+  text-align: left;
+  height: 150px;
+  flex: 1;
+  margin: 10px 10px 30px 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 10px 10px 15px 0px #83725f
+}
+
+#review-text {
+  display: grid;
+  width: 99%;
+  height: fit-content;
+  background-color: white;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 0px #83725f
+}
+
+#rating {
+  display: grid;
+  width: 99%;
+  background-color: white;
+  margin: 10px 10px 10px 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 10px 10px 15px 0px #83725f;
+  cursor: pointer;
+}
+
+.submit-button {
+  justify-content: center;
+  flex: 1;
+  width: 99%;
+  margin: 10px 10px 10px 10px;
+  color: #fff;
+  background-color: #70432d;
+  border-radius: 5px;
+  border-color: #70432d;
+  cursor: pointer;
+  padding: 6px 10px;
+}
+
+.submit-button, .button-login:hover {
+  background-color:#e97b48;
+  text-decoration: underline;
+}
+
+.button-login {
+  margin: 10px 10px 10px 0px;
+  color: #fff;
+  background-color: #70432d;
+  border-radius: 5px;
+  border-color: #70432d;
+  cursor: pointer;
+  padding: 6px 10px;
 }
