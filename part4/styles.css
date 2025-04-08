@@ -88,6 +88,7 @@ main {
 #filter {
   display: flex;
   justify-content: flex-end;
+  margin-right: 20px;
   align-items: center;
 }
 
@@ -186,7 +187,7 @@ main {
   justify-content: center;
   flex: 1;
   width: 98%;
-  margin: 10px 20px 10px 20px;
+  margin: 10px 20px;
   color: #fff;
   background-color: #70432d;
   border-radius: 5px;
