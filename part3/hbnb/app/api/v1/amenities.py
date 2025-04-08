@@ -55,8 +55,7 @@ class AmenityResource(Resource):
         return {
             'id': amenity.id,
             'name': amenity.name,
-            'description': amenity.description,
-            'places': amenity.places
+            'description': amenity.description
             }, 200
 
 

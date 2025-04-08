@@ -1,6 +1,1 @@
-# Ignore virtual environments
-venv/
-env/
-myenv/
-**/__pycache__/
-*.egg_info
+.gitignore
